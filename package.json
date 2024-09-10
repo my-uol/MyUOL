@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:css": "tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css",
+    "watch:css": "tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
