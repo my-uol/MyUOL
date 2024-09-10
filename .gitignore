@@ -3,6 +3,11 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# User-specific files
+.idea/
+.vscode/
+.DS_Store/
+
 # dotenv files
 .env
 
